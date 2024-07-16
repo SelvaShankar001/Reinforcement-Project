@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.collapse{
+    margin-left: 550px;
+}
+.a{
+    margin-left: 50px;
+}
+
+.b{
+    margin-left: 90px;
+}
+
+.c{
+    margin-left: 90px;
+}
+
+.img1{
+    /* position: absolute; */
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+
+section{
+    background-color: black;
+    /* height: 1000vh; */
+
+}
+
+.head{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+.heading1{
+    /* position: absolute; */
+        margin-left: 350px;
+        margin-top: -480px;
+        font-size: 50px;
+        font-weight: 900;
+}
+
+.para1{
+    margin-left: 350px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bt1{
+    margin-left: 350px;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: red;
+    font-weight: 700;
+}
+
+.bt2{
+    margin-left: 25px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.heading3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.dd{
+    margin-left: 450px;
+}
+
+.dd1{
+    margin-left: 90px;
+}
+
+.heading4{
+    justify-content: start;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 200px;
+}
+
+.p1{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.img3{
+    position: absolute;
+    left: 900px;
+    top: 1900px;
+}
+
+.heading5{
+    margin-right: 200px;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.p2{
+    font-size: x-large;
+    font-weight: 500;
+    text-align: right;
+}
+
+.img4{
+    margin-left: 250px;
+    margin-top: -400px;
+}
+
+.heading6{
+    justify-content: start;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 200px;
+    margin-top: 400px;
+}
+
+.p3{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.img5{
+    margin-left: 950px;
+    margin-top: -400px;
+}
+
+.heading7{
+    margin-top: 300px;
+    margin-right: 200px;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.p4{
+    font-size: x-large;
+    font-weight: 500;
+    text-align: right;
+}
+
+.img6{
+    margin-left: 200px;
+    margin-top: -450px;
+}
+
+.final{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* .main{
+    display: flex;
+} */
+
+    .section9{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        /* margin-left: 4rem;
+        margin-right: 2rem; */
+        justify-content: center;
+        animation: move-rtl 6000ms linear infinite;   
+    }
+    
+    @keyframes  move-rtl{
+        0%{
+            transform: translateX(0);
+        }
+        90%{
+            transform: translateX(-50%);
+        }
+    }
+    .scroll1{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    }
+    
+     .scrollimg img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        margin-left: 3rem;
+         margin-bottom: 5rem; 
+         margin-top: 1rem; 
+        }  
+    
+        .scrollimg img{
+            background-color: aquamarine;
+        }
+    
+        .scrcontent p{
+        font-size: 14px;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        color: black;
+    }
+    
+    .scroll2{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .scroll3{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .scroll7{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .scroll8{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .section10{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 15rem;
+        /* margin-left: 4rem;
+        margin-right: 2rem; */
+        justify-content: center;
+        animation: move-rtl1 6000ms linear infinite;      
+    }
+    
+    @keyframes  move-rtl1{
+        0%{
+            transform: translateX(0);
+        }
+        80%{
+            transform: translateX(-50%);
+        }
+    }
+    .scroll4{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+     .scrollimg img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        margin-left: 3rem;
+         margin-bottom: 5rem; 
+         margin-top: 1rem; 
+        }  
+    
+        .scrollimg img{
+            background-color: aquamarine;
+        }
+    
+        .scrcontent p{
+        font-size: 14px;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        color: black;
+    }
+    
+    .scroll4{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .scroll5{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .scroll6{
+        display: flex;
+        background-color: white;
+        width: 25vw;
+        height: 15vh;
+        padding: 1rem;
+        border-radius: 45px;
+    
+    }
+    
+    .section11{
+        margin-top: 15rem;
+        display: flex;
+    }
+    
+    .miccontent{
+        margin-left: 10rem;
+        background-color:#E63963 ;
+        width: 45vw;
+        height: 100vh;
+        border-radius: 30px 0 0 30px;
+        padding: 5rem;
+    }
+    .miccontent h4{
+        letter-spacing: 1px;
+        font-size: 25px;
+        opacity: 0.8;
+    }
+    
+    .miccontent h2{
+        margin-top: 3rem;
+        font-size: 45px;
+        letter-spacing: 2px;
+        font-weight: 950;
+        font-family: sans-serif;
+        color: white;
+    }
+    
+    .miccontent h3{
+        margin-top: 3rem;
+        font-size: 45px;
+        letter-spacing: 2px;
+        font-weight: 1000;
+        font-family: sans-serif;
+        color: white;
+    
+    }
+    
+    .miccontent button{
+        line-height: 2rem;
+        width: 25vw;
+        height: 10vh;
+        text-align: center;
+        margin-top: 3rem;
+        border-radius: 40px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .micimg img{
+        width: 490px;
+        height: 705px;
+        margin-left: 4rem;
+        border: 0;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    .footer-container{
+        /* background-color: rgb(26, 123, 123); */
+        background-image: linear-gradient(to top, #000, #444);
+        height: 100vh;
+        margin-top: 10rem;
+    }
+    
+    .foot-img img{
+        width: 113px;
+        height: 28px;
+        margin-left: 15rem;
+        margin-top: 8rem;
+    }
+    .toper{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+    .foot-top{
+        margin-right: 15rem;
+        margin-top: 8rem;
+        word-spacing: 2rem;
+    }
+    .foot-top a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .footer-below{
+        display: flex;
+        margin-left: 46%;
+        gap: 2rem;
+        font-size: 20px;
+    
+    }
+    .footer-below a{
+        text-decoration: none;
+        color: white;
+    }
+    .apple{
+        margin-left: 18rem;
+        margin-top: 1rem;
+    }
+    .apple img{
+        width: 140px;
+    }
+    .bottom{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .copy{
+        margin-left: 18rem;
+        font-size: 20px;
+    }
+    .icons{
+        margin-right: 17rem;
+        word-spacing: 1rem;
+    }
+
+
